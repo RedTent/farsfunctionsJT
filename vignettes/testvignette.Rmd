@@ -1,0 +1,22 @@
+---
+title: "How to use the farsfunctionJT package"
+author: "Johannes van Tent"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is the vignette for the farsfunctionJT package. This package contains functions to summarise and plot data from the FARS-database
+
+## FARS database
+
+This package handles data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System [FARS](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+## Package functionality
+
+This package contains 5 functions. These functions are concerned with loading FARS data, creating summaries and plotting FARS-locations on a statemap. It is important that you use unchanged data from the FARS-database or you may encount errors. The data can be pulled from the [FARS-website](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars)
+
+
